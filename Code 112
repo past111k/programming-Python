@@ -1,0 +1,6 @@
+n, l = int(input()), []
+for i in range(n):
+  l.append(int(input()))
+for a in l:
+  if a != min(l) and a != max(l):
+    print(a)

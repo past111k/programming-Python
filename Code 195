@@ -1,0 +1,7 @@
+Лхкрпч, фьш мпъэпь, ьпщхш пцэ чк ымпьп!
+
+for i in input():
+    if i.isalpha():
+        print(chr((ord(i) + 10) % ord('я')), end='')
+    else:
+        print(i, end='')

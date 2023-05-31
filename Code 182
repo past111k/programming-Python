@@ -1,0 +1,8 @@
+def is_correct_bracket(text):
+    while '()' in text:
+        text = text.replace('()', '')
+    return not text
+
+txt = input()
+
+print(is_correct_bracket(txt))

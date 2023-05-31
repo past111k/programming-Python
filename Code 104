@@ -1,0 +1,4 @@
+l = []
+for i in range(ord('z') - ord('a') + 1):
+    l.append(chr(ord('a') + i) * (i + 1))
+print(l)

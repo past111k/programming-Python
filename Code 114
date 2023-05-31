@@ -1,0 +1,5 @@
+n = [input() for x in range(int(input()))]
+x = input().lower()
+for i in n:
+    if x in i.lower():
+        print(i)

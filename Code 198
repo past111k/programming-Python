@@ -1,0 +1,9 @@
+The grass is always greener on the other side of the fence.
+
+n, s = -25, 'Sgd fqzrr hr zkvzxr fqddmdq nm sgd nsgdq rhcd ne sgd edmbd.'
+for i in s:
+    if i.isalpha():
+        c = ('a', 'A')[i.isupper()]
+        print(chr(ord(c) + (ord(i) + n - ord(c)) % 26), end='')
+    else:
+        print(i, end='')

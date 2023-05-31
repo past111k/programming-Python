@@ -1,0 +1,11 @@
+Скупой теряет все, желая все достать.
+
+s = 'Шсъцхр щмчжмщ йшм, нмтзж йшм лхшщзщг.'
+m = ''
+for i in s:
+    if i.isalpha():
+        m += chr(ord(i) - 7)
+    else:
+        m += i
+    m = m.lower()
+print(m.capitalize())
