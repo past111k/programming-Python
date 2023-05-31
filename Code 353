@@ -1,0 +1,4 @@
+from  math  import *
+
+for _ in range(1):
+    print(int(sum(range(1 + 750))/ 750))

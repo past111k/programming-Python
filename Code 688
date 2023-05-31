@@ -1,0 +1,5 @@
+import math
+print("Input a, b, c")
+a, b, c=map(float, input() .split())
+d=b**2-4*a*c
+print("d=",d,sep="")

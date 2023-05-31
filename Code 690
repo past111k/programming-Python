@@ -1,0 +1,5 @@
+import math
+print("Input m, g, alpha")
+m, g, alpha=map(float, input() .split())
+f=m*g*math.cos(alpha)
+print("f=",f,sep="")

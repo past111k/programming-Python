@@ -1,0 +1,5 @@
+import math
+print("Input r1, r2")
+r1, r2=map(float, input() .split())
+f=1/r1+1/r2
+print("f=",f,sep="")

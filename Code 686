@@ -1,0 +1,5 @@
+import math
+print("Input a, b, gamma")
+a, b, gamma=map(float, input() .split())
+s=a*b*math.sin(gamma)
+print("S=",s,sep="")

@@ -1,0 +1,5 @@
+import math
+print("Input r")
+r=float(input())
+l=2*math.pi*r
+print("l=",l,sep="")

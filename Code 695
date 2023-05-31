@@ -1,0 +1,6 @@
+import math
+print("Input x")
+x=float(input())
+f=math.sqrt(x+1)+math.sqrt(x-1)
+f=f/(2*math.sqrt(x))
+print("f=",f,sep="")

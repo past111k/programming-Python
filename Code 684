@@ -1,0 +1,5 @@
+import math
+print("Input a, b, c, d")
+a, b, c, d=map(float, input() .split())
+f=(a*d+b*c)/(a*d)
+print("f=",f,sep="")

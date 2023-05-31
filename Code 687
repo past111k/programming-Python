@@ -1,0 +1,6 @@
+import math
+gamma=6.67*10**(-11)
+print("Input m1, m2, r")
+m1, m2, r=map(float, input() .split())
+f=(gamma*m1*m2)/r**2
+print("f=",f,sep="")

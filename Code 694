@@ -1,0 +1,6 @@
+import math
+print("Input a, b, c, x")
+a, b, c, x=map(float, input() .split())
+f=math.sqrt(a*x**2+b*x+c)
+f=1/f
+print("f=",f,sep="")

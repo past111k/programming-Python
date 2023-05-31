@@ -1,0 +1,5 @@
+import math
+print("Input v, h, g, m")
+v, h, g, m=map(float, input() .split())
+e=h*m*g+(m*v**2)/2
+print("e=",e,sep="")

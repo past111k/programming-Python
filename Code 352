@@ -1,0 +1,4 @@
+from  math  import *
+i = float()
+for i in range(10):
+    print(sin(i / 10))

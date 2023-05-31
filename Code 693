@@ -1,0 +1,6 @@
+import math
+print("Input x")
+x=float(input())
+x=math.sin(x)
+f=math.sqrt(1-x**2)
+print("f=",f,sep="")
