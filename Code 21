@@ -1,0 +1,5 @@
+x = float(input())
+y = float(input())
+from math import *
+G = hypot(x, y)
+print (G)

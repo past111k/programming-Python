@@ -1,0 +1,5 @@
+x = float (input())
+from math import pi
+y1 = 4 * pi * x 
+y2 = x ** 2 * pi 
+print (y1, y2)

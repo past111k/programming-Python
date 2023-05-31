@@ -1,0 +1,5 @@
+x = int(input()) 
+n = int(input())
+ost = n % x
+rm = n // x 
+print (ost , rm)

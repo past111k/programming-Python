@@ -1,0 +1,4 @@
+l = input()
+rub = len(l) * 0.6
+kop = len(l) * 60 % 100
+print(int(rub), 'р.', kop, 'коп.')

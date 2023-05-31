@@ -1,0 +1,6 @@
+x = int(input())
+y = int(input())
+e = (x + y) / 2
+x1 = e - x
+y1 = e - y
+print (e, x1, y1)

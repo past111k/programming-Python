@@ -1,0 +1,8 @@
+x = int(input())
+n= int(input())
+n1 = n % 10
+n2 = n // 10
+y = n1 + n2 + x
+y1 = y % 10
+y2 = y // 10
+print (y1, y2)

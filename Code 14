@@ -1,0 +1,5 @@
+x,w = int(input()),int(input()) 
+y1 = x+w/2
+import math
+y2 = math.sqrt(x*w) 
+print (y1, y2)

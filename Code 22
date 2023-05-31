@@ -1,0 +1,5 @@
+R = float(input())
+r = float(input())
+from math import *
+S = pi * ( R - r )
+print (S)

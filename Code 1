@@ -1,0 +1,5 @@
+import math
+x1, x2=map(float, input() .split())
+f=x1*x1+x2*x2
+f=math.sqrt(f)
+print("f(",x1,",",x2,")=",f,sep="")

@@ -1,0 +1,9 @@
+n = int(input())                
+s = input()                    
+abc = 26                        
+
+for i in range(len(s)):        
+    word = ord(s[i]) - n        
+    if word < 97:              
+        word += abc           
+    print(chr(word), end='')  

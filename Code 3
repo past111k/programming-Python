@@ -1,0 +1,3 @@
+x = float (input())
+y = (3 * x ** 2) - (5 * x) + 21
+print (y)
